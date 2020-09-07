@@ -5,7 +5,8 @@ const URI = 'mongodb+srv://dbuser:dbuser@blog-basic.pkkml.mongodb.net/<dbname>?r
 const connectDB = async ()=>{
     await mongoose.connect(URI, {
         useNewUrlParser: true, 
-        useUnifiedTopology: true
+        useUnifiedTopology: true,
+        useCreateIndex: true
     });
     console.log("DB connected!");
 }

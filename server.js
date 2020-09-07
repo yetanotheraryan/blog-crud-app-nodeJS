@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const connectDB = require('./db/connection');
 const articlerouter = require('./routes/articles');
 const Article = require("./models/article");
+const methodOverride = require('method-override');
 const app = express();
 
 connectDB();
@@ -12,7 +13,7 @@ app.set('view engine', 'ejs');
 
 // .urlencoded(), helps accessing all the parameters from new articles forms, inside articles router, in (req.body.)
 app.use(express.urlencoded({extended: false}));
-
+app.use(methodOverride('_method'));
 
 app.get('/', async(req, res)=>{
     const articles = await Article.find().sort({createdAt: 'desc'});
