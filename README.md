@@ -3,4 +3,4 @@ Simple CRUD app using nodeJS, mongoDB and express.js
 
 This is a simple CRUD Blog app, its using mongodb atlas as its database.
 
-![](images/captureb1.png)
+![](images/Captureb1.PNG)
