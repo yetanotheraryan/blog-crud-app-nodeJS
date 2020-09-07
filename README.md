@@ -19,7 +19,10 @@ some images, again not pleasing :) -
 
 Index -
 
-![](images/Captureb1.PNG)
+
+<img src="images/Captureb1.PNG" width=500>
+
+<img src="images/Captureb2.PNG" width=500>
 
 
 
