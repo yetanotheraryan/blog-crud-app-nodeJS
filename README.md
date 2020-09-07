@@ -3,7 +3,7 @@
 
 This is a simple CRUD Blog app, its using mongodb atlas as its database.
 
-### Working: 
+### Cloning and Working: 
 1. Clone the Project
 2. in terminal run command, "npm install", which will install all the dependencies.
 3. in terminal run commanf, "npm run devstart", to run the porject and open up the app on localhost 5000.
